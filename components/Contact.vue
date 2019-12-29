@@ -60,7 +60,6 @@
               <form
                 action="/thank-you"
                 method="post"
-                name="contact1"
                 class="contactForm"
                 netlify-honeypot="bot-field"
                 netlify
