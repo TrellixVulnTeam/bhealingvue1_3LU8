@@ -57,8 +57,21 @@
           </div>
           <div class="col-lg-4 col-md-8">
             <div class="form">
-              <form action method="post" role="form" class="contactForm" netlify>
+              <form
+                action="/thank-you"
+                method="post"
+                name="contact1"
+                class="contactForm"
+                netlify-honeypot="bot-field"
+                netlify
+              >
                 <input type="hidden" name="form-name" value="contact" />
+                <p class="hidden">
+                  <label>
+                    Don’t fill this out:
+                    <input name="bot-field" />
+                  </label>
+                </p>
                 <div class="form-group">
                   <input
                     type="text"
