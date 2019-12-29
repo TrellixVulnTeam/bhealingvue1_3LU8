@@ -256,8 +256,18 @@ blockquote {
   background-color: #5b7da6;
 }
 .carousel-caption {
-  color: #2b2c2d;
+  color: #2b2c2d !important;
   text-align: center;
   /* background: rgba(230, 230, 230, .5); */
+}
+.carousel-caption blockquote {
+  color: #333;
+}
+.carousel-caption h6 {
+  color: #333;
+  text-align: center;
+}
+#carousel-1___BV_indicators_ li {
+  background-color: #333 !important;
 }
 </style>

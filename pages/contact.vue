@@ -15,3 +15,8 @@
     </div>
   </div>
 </template>
+<style scoped>
+.hidden {
+  display: none;
+}
+</style>

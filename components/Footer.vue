@@ -12,7 +12,7 @@
         </div>
         <div class="credits">
           <a href="https://www.jsdevelopment.tech">
-            <font-awesome-icon :icon="{ prefix: 'fas', iconName: 'cog' }" size="md" spin />&nbsp Website developed by JS Development
+            <font-awesome-icon :icon="{ prefix: 'fas', iconName: 'cog' }" size="1x" spin />&nbsp Website developed by JS Development
           </a>
         </div>
       </div>

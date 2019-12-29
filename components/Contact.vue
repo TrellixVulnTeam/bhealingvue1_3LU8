@@ -20,7 +20,11 @@
               <li id="phone">
                 <a aria-label=" call Betty at 770-206-4002" href="tel:7703178288">
                   <i class="fa fa-phone fa-2x animated faa-ring faa-slow"></i>
-                  <font-awesome-icon :icon="{ prefix: 'fas', iconName: 'phone' }"class=" animated ring"  flip="horizontal"/>
+                  <font-awesome-icon
+                    :icon="{ prefix: 'fas', iconName: 'phone' }"
+                    class="animated ring"
+                    flip="horizontal"
+                  />
                 </a>
               </li>
               <li>
@@ -43,23 +47,18 @@
               </li>
               <li>
                 <a href="mailto:betty@benevolenthealing.org">
-                  <font-awesome-icon :icon="{ prefix: 'fas', iconName: 'envelope' }"class=" animated faa-ring faa-slow" />
+                  <font-awesome-icon
+                    :icon="{ prefix: 'fas', iconName: 'envelope' }"
+                    class="animated faa-ring faa-slow"
+                  />
                 </a>
               </li>
             </ul>
           </div>
           <div class="col-lg-4 col-md-8">
             <div class="form">
-              <div
-                id="sendmessage"
-              >Thank you for contacting me! I will return your email as soon as possible.</div>
-              <div id="errormessage"></div>
-              <form
-                action="./contactform/contactform.php"
-                method="post"
-                role="form"
-                class="contactForm"
-              >
+              <form action method="post" role="form" class="contactForm" netlify>
+                <input type="hidden" name="form-name" value="contact" />
                 <div class="form-group">
                   <input
                     type="text"
@@ -71,7 +70,6 @@
                     data-rule="minlen:4"
                     data-msg="Please enter at least 4 chars"
                   />
-                  <div class="validation"></div>
                 </div>
                 <div class="form-group">
                   <input
@@ -84,7 +82,6 @@
                     data-rule="email"
                     data-msg="Please enter a valid email"
                   />
-                  <div class="validation"></div>
                 </div>
 
                 <div class="form-group">
@@ -97,7 +94,6 @@
                     data-msg="Please write something for us"
                     placeholder="Message"
                   ></textarea>
-                  <div class="validation"></div>
                 </div>
                 <div class="text-center">
                   <button class="buttonfx curtaindown" name="submit" type="submit">Send Message</button>
@@ -291,5 +287,8 @@ button:focus {
   #contact .section-header {
     margin-top: 16em;
   }
+}
+.hidden {
+  display: none;
 }
 </style>
