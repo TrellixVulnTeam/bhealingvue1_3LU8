@@ -16,8 +16,9 @@ import '../node_modules/bootstrap-vue/dist/bootstrap-vue.css'
 import '../node_modules/@fortawesome/fontawesome-svg-core/styles.css'
 
 import _6f6c098b from '../layouts/default.vue'
+import _7813e4b4 from '../layouts/thank.vue'
 
-const layouts = { "_default": _6f6c098b }
+const layouts = { "_default": _6f6c098b,"_thank": _7813e4b4 }
 
 export default {
   head: {"title":"bhealvue","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"My astounding Nuxt.js project"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico","class":"animated spin"},{"rel":"stylesheet","href":"https:\u002F\u002Funpkg.com\u002Fvue2-animate\u002Fdist\u002Fvue2-animate.min.css"}],"style":[],"script":[]},

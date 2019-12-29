@@ -57,12 +57,13 @@
           </div>
           <div class="col-lg-4 col-md-8">
             <div class="form">
-              <form
-                action="/thank-you"
+              <b-form
+                action="/thankYou"
                 method="post"
                 class="contactForm"
                 netlify-honeypot="bot-field"
                 netlify
+                @submit.stop.prevent="onSubmit"
               >
                 <input type="hidden" name="form-name" value="contact" />
                 <p class="hidden">
@@ -71,51 +72,58 @@
                     <input name="bot-field" />
                   </label>
                 </p>
-                <div class="form-group">
-                  <input
+                <b-form-group class="form-group">
+                  <b-form-input
                     type="text"
                     aria-label="Full Name"
                     name="name"
                     class="form-control"
                     id="name"
                     placeholder="Your Name"
-                    data-rule="minlen:4"
-                    data-msg="Please enter at least 4 chars"
+                    v-model="$v.form.name.$model"
+                    :state="$v.form.name.$dirty ? !$v.form.name.$error : null"
                   />
-                </div>
-                <div class="form-group">
-                  <input
+                  <b-form-invalid-feedback
+                    id="name-live-feedback"
+                  >This is a required field and must be at least 3 characters.</b-form-invalid-feedback>
+                </b-form-group>
+                <b-form-group class="form-group">
+                  <b-form-input
                     type="email"
                     aria-label="Email Address"
                     class="form-control"
                     name="email"
                     id="email"
                     placeholder="Your Email"
-                    data-rule="email"
-                    data-msg="Please enter a valid email"
+                    v-model="$v.form.email.$model"
+                    :state="$v.form.email.$dirty ? !$v.form.email.$error : null"
                   />
-                </div>
+                  <b-form-invalid-feedback id="email-live-feedback">This is a required field.</b-form-invalid-feedback>
+                </b-form-group>
 
-                <div class="form-group">
-                  <textarea
+                <b-form-group class="form-group">
+                  <b-form-textarea
                     class="form-control"
                     aria-label="Message"
                     name="message"
                     rows="5"
-                    data-rule="required"
-                    data-msg="Please write something for us"
+                    id="message"
+                    v-model="$v.form.message.$model"
+                    :state="$v.form.message.$dirty ? !$v.form.message.$error : null"
                     placeholder="Message"
-                  ></textarea>
-                </div>
+                  ></b-form-textarea>
+                  <b-form-invalid-feedback id="message-feedback">This is a required field.</b-form-invalid-feedback>
+                </b-form-group>
                 <div class="text-center">
-                  <button class="buttonfx curtaindown" name="submit" type="submit">Send Message</button>
+                  <b-button
+                    class="buttonfx curtaindown"
+                    name="submit"
+                    type="submit"
+                    variant="primary"
+                    :disabled="$v.form.$invalid"
+                  >Send Message</b-button>
                 </div>
-                <div class="form-group">
-                  <div class="col-sm-10 col-sm-offset-2">
-                    <!-- Will be used to display an alert to the user-->
-                  </div>
-                </div>
-              </form>
+              </b-form>
             </div>
           </div>
           <div class="col-lg-4">
@@ -135,7 +143,47 @@
     <!-- #contact -->
   </div>
 </template>
+<script>
+import { validationMixin } from "vuelidate";
+import { required, minLength } from "vuelidate/lib/validators";
+export default {
+  data() {
+    return {
+      form: {
+        name: null,
+        email: null,
+        message: null
+      }
+    };
+  },
+  validations: {
+    form: {
+      email: {
+        required
+      },
+      name: {
+        required,
+        minLength: minLength(3)
+      },
+      message: {
+        required
+      }
+    }
+  },
+  methods: {
+    onSubmit() {
+      this.$v.form.$touch();
+      if (this.$v.form.$anyError) {
+        this.submitStatus = "error";
+        console.log("there is an error.");
+        return;
+      }
 
+      // Form submit logic
+    }
+  }
+};
+</script>
 <style scoped>
 /* Contact Section
 --------------------------------*/
