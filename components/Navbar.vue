@@ -32,7 +32,7 @@
       <b-collapse id="nav-collapse" is-nav>
         <!-- Right aligned nav items -->
         <b-navbar-nav class="ml-auto animated zoomIn">
-          <b-nav-item router-tag="a" to="#welcome">Welcome</b-nav-item>
+          <!-- <b-nav-item router-tag="a" to="#welcome">Welcome</b-nav-item> -->
           <b-nav-item to="#process" router-tag="a">Process</b-nav-item>
           <b-nav-item router-tag="a" to="#bout_me">About</b-nav-item>
           <b-nav-item router-tag="a" to="#contact">Contact</b-nav-item>
