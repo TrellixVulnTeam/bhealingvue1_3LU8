@@ -6,7 +6,11 @@
           <div class="col-lg-4 content order-lg-1 order-2">
             <div class="member">
               <div class="pic">
-                <img class="round" src="~assets/img/backgrounds/Les_Eclaireurs_Lighthouse.jpg" alt />
+                <img
+                  class="round"
+                  src="~assets/img/backgrounds/Les_Eclaireurs_Lighthouse.jpg"
+                  alt
+                />
               </div>
             </div>
           </div>
@@ -20,8 +24,10 @@
             <blockquote>
               <img src="~/assets/img/noun_golden-spiral_43318_ffffff.svg" alt />
               <p>
-                “ Ring the bells that still can ring , Forget your perfect offering ,
-                <br />There is a crack in everything , That’s how the light gets in. ”
+                “ Ring the bells that still can ring, Forget your perfect
+                offering,
+                <br />There is a crack in everything, That’s how the light gets
+                in. ”
               </p>
               <p>~ Lenard Cohen ~</p>
             </blockquote>
@@ -31,7 +37,7 @@
     </section>
   </div>
 </template>
-  
+
 <style scoped>
 /* Welcome Section
 --------------------------------*/

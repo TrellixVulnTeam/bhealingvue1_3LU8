@@ -9,31 +9,39 @@
             <div class="col-lg-4 col-md-6">
               <div class="member">
                 <div class="pic">
-                  <img class="round" src="~/assets/img/headshots/BettyHeadshot4 copy.jpg" alt />
+                  <img
+                    class="round"
+                    src="~/assets/img/headshots/BettyHeadshot4 copy.jpg"
+                    alt
+                  />
                 </div>
               </div>
             </div>
             <div class="col-lg-8 col-md-6">
               <p class="section-description">
-                I grew up with a strong sensitivity to people,
-                animals and the natural world that has deepened and evolved through the years. I
-                received an MEd in Rehabilitation Counseling and worked in this field for many
-                years. I am also an artist and I earned a BFA in Drawing and Painting. My
-                interest in the spiritual and the psychological has taken me far below the
-                surface of things. I found my calling when I studied spiritual healing and
-                development with Martha Novak and Infinite Insight, a system to which
-                I am still aligned. My system is a refined and sophisticated one making me an
-                adept at helping my clients achieve clarity, peace, joy, potential, heightened
-                creativity and more. I now help clients realize that God is a God of more and is
-                right there inside of us, ready to be used and enjoyed.
+                I grew up with a strong sensitivity to people, animals, and the
+                natural world that has deepened and evolved through the years. I
+                received an MEd in Rehabilitation Counseling, and worked in this
+                field for many years. I am also an artist, and I earned a BFA in
+                Drawing and Painting. My interest in the spiritual and the
+                psychological has taken me far below the surface of things. I
+                found my calling when I studied spiritual healing and
+                development with Martha Novak and Infinite Insight, a system to
+                which I am still aligned. My system is a refined and
+                sophisticated one, making me an adept at helping my clients
+                achieve clarity, peace, joy, potential, heightened creativity,
+                and more. I now help clients realize that God is a God of more,
+                and is right there inside of us, ready to be used and enjoyed.
               </p>
               <blockquote class="quote">
-                <img src="~assets/img/noun_golden-spiral_43318_ffffff.svg" alt />
+                <img
+                  src="~assets/img/noun_golden-spiral_43318_ffffff.svg"
+                  alt
+                />
                 <p style="text-align: center;" role="presentation">
                   Your task is not to seek for love,
-                  <br />but merely to seek and find all the barriers within yourself
-                  <br />that you have built against it.”
-                  <br />~ Rumi ~
+                  <br />but merely to seek and find all the barriers within
+                  yourself <br />that you have built against it.” <br />~ Rumi ~
                 </p>
               </blockquote>
             </div>
@@ -49,7 +57,7 @@
 --------------------------------*/
 #bout_me {
   background: #fff;
-  padding: 80px 0 60px;
+  padding: 150px 0 250px;
 }
 
 #bout_me .member {

@@ -26,17 +26,26 @@
               <!-- Slides with img slot -->
               <!-- Note the classes .d-block and .img-fluid to prevent browser default image alignment -->
               <b-carousel-slide img-blank>
-                <blockquote
-                  role="presentation"
-                >Betty has a loving way of nudging you to go deeper. I went to a painting class she was conducting and ended up knowing more of my emotional clutter. She always delivers a powerful healing, no matter what the modality.</blockquote>
+                <blockquote role="presentation">
+                  Betty has a loving way of nudging you to go deeper. I went to
+                  a painting class she was conducting and ended up knowing more
+                  of my emotional clutter. She always delivers a powerful
+                  healing, no matter what the modality.
+                </blockquote>
                 <h6 role="presentation">~ Diana E. Cohen ~</h6>
               </b-carousel-slide>
 
               <!-- Slide with blank fluid image to maintain slide aspect ratio -->
               <b-carousel-slide img-blank>
-                <blockquote
-                  role="presentation"
-                >I have been blessed to work with Betty for several years now to heal from childhood abuse. I originally started out by thinking that I just wanted to stop the pain. With Betty’s assistance I have gone far beyond that. With her gentle probing and ability to poke in just the right direction, I am living a life that I could not believe was possible a few short years ago.</blockquote>
+                <blockquote role="presentation">
+                  I have been blessed to work with Betty for several years now
+                  to heal from childhood abuse. I originally started out by
+                  thinking that I just wanted to stop the pain. With Betty’s
+                  assistance, I have gone far beyond that. With her gentle
+                  probing and ability to poke in just the right direction, I am
+                  living a life that I could not believe was possible a few
+                  short years ago.
+                </blockquote>
                 <h6 role="presentation">~ Michele Wright ~</h6>
               </b-carousel-slide>
             </b-carousel>

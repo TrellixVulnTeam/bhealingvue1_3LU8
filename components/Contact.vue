@@ -5,20 +5,23 @@
         <div class="section-header">
           <h3 class="section-title">Let's Connect</h3>
           <p class="section-description">
-            Give me a call, or drop me an email to schedule a
-            session, or a complimentary 30 minute consultation.
+            Give me a call, or drop me an email to schedule a session, or a
+            complimentary 30 minute consultation.
             <br />Let's get started moving forward together!
           </p>
           <p></p>
         </div>
       </div>
 
-      <div class="container wow fadeInUp">
+      <div class="container wow form-section fadeInUp">
         <div class="row justify-content-center">
           <div class="col-lg-3 col-md-4">
             <ul class="social-links">
               <li id="phone">
-                <a aria-label=" call Betty at 770-206-4002" href="tel:7703178288">
+                <a
+                  aria-label=" call Betty at 770-206-4002"
+                  href="tel:7703178288"
+                >
                   <i class="fa fa-phone fa-2x animated faa-ring faa-slow"></i>
                   <font-awesome-icon
                     :icon="{ prefix: 'fas', iconName: 'phone' }"
@@ -33,7 +36,9 @@
                   target="_blank"
                   aria-label="Facebook"
                 >
-                  <font-awesome-icon :icon="{ prefix: 'fab', iconName: 'facebook-f' }" />
+                  <font-awesome-icon
+                    :icon="{ prefix: 'fab', iconName: 'facebook-f' }"
+                  />
                 </a>
               </li>
               <li>
@@ -42,7 +47,9 @@
                   aria-label="linked in"
                   target="_blank"
                 >
-                  <font-awesome-icon :icon="{ prefix: 'fab', iconName: 'linkedin-in' }" />
+                  <font-awesome-icon
+                    :icon="{ prefix: 'fab', iconName: 'linkedin-in' }"
+                  />
                 </a>
               </li>
               <li>
@@ -108,7 +115,13 @@
                   ></textarea>
                 </div>
                 <div class="text-center">
-                  <button class="buttonfx curtaindown" name="submit" type="submit">Send Message</button>
+                  <button
+                    class="buttonfx curtaindown"
+                    name="submit"
+                    type="submit"
+                  >
+                    Send Message
+                  </button>
                 </div>
                 <div class="form-group">
                   <div class="col-sm-10 col-sm-offset-2">
@@ -141,7 +154,7 @@
 --------------------------------*/
 #contact {
   background: #fff;
-  padding: 80px 0 40px;
+  padding: 80px 0 100px;
   border-top: 1px solid lightgrey;
 }
 
@@ -266,7 +279,9 @@ button:focus {
   margin-left: 50%;
   margin-top: -20px;
 }
-
+#contact .container.form-section {
+  margin: 80px auto;
+}
 .justify-content-center {
   margin-left: -24%;
   text-align: left;

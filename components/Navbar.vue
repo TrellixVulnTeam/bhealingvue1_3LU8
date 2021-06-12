@@ -1,11 +1,25 @@
 <template>
   <div>
-    <b-navbar toggleable="lg" variant="info" sticky="true" class="is-transparent" id="nav0">
+    <b-navbar
+      toggleable="lg"
+      variant="info"
+      sticky="true"
+      class="is-transparent"
+      id="nav0"
+    >
       <b-navbar-brand>
         <div class="logo animated zoomIn">
           <transition name="logo">
-            <nuxt-link style="animation-duration: 0.3s" class="logo-text" to="/">
-              <img class="head_logo animated" src="~assets/img/noun_golden-spiral_43318_ffffff.png" />
+            <nuxt-link
+              style="animation-duration: 0.3s"
+              class="logo-text"
+              to="/"
+            >
+              <img
+                class="head_logo animated"
+                src="~assets/img/noun_golden-spiral_43318_ffffff.png"
+                alt=""
+              />
               <h1 role="presentation">Benevolent Healing</h1>
             </nuxt-link>
           </transition>
@@ -20,7 +34,7 @@
         <b-navbar-nav class="ml-auto animated zoomIn">
           <b-nav-item router-tag="a" to="#welcome">Welcome</b-nav-item>
           <b-nav-item to="#process" router-tag="a">Process</b-nav-item>
-          <b-nav-item router-tag="a" to="#bout_me">About Me</b-nav-item>
+          <b-nav-item router-tag="a" to="#bout_me">About</b-nav-item>
           <b-nav-item router-tag="a" to="#contact">Contact</b-nav-item>
         </b-navbar-nav>
       </b-collapse>

@@ -6,10 +6,11 @@
       <div class="hero-container">
         <div class="container welcome quote animated fadeIn">
           <p>
-            Hi, I’m Betty Smith Sadler. These are times of great change, within ourselves
-            and in our world. Wherever you are on your Spiritual path, beginning the journey
-            within or looking to move beyond your current awareness, my job is waking you up
-            to your Potential as you discover who you really are.
+            Hi, I’m Betty Smith Sadler. These are times of great change, within
+            ourselves, and in our world. Wherever you are on your Spiritual
+            path, beginning the journey within, or looking to move beyond your
+            current awareness, my job is waking you up to your potential as you
+            discover who you really are.
           </p>
           <blockquote>
             <img src="~/assets/img/noun_golden-spiral_43318_ffffff.svg" alt />
