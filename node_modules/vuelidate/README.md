@@ -1,8 +1,29 @@
 # vuelidate
-[![codecov](https://codecov.io/gh/monterail/vuelidate/branch/master/graph/badge.svg)](https://codecov.io/gh/monterail/vuelidate)
-![gzip size](http://img.badgesize.io/monterail/vuelidate/master/dist/vuelidate.min.js.svg?compression=gzip)
+[![codecov](https://codecov.io/gh/vuelidate/vuelidate/branch/master/graph/badge.svg)](https://codecov.io/gh/vuelidate/vuelidate)
+![gzip size](http://img.badgesize.io/vuelidate/vuelidate/master/dist/vuelidate.min.js.svg?compression=gzip)
 
 > Simple, lightweight model-based validation for Vue.js
+
+## Sponsors
+
+### Silver
+
+<p align="center">
+  <a href="https://www.storyblok.com/developers?utm_source=newsletter&utm_medium=logo&utm_campaign=vuejs-newsletter" target="_blank">
+    <img src="https://a.storyblok.com/f/51376/3856x824/fea44d52a9/colored-full.png" alt="Storyblok" width="240px">
+  </a>
+</p>
+
+### Bronze
+
+<p align="center">
+  <a href="https://www.vuemastery.com/" target="_blank">
+    <img src="https://cdn.discordapp.com/attachments/258614093362102272/557267759130607630/Vue-Mastery-Big.png" alt="Vue Mastery logo" width="180px">
+  </a>
+  <a href="https://vuejobs.com/" target="_blank">
+    <img src="https://cdn.discordapp.com/attachments/560524372897562636/636900598700179456/vuejobs-logo.png" alt="Vue Mastery logo" width="140px">
+  </a>
+</p>
 
 ### Features & characteristics:
 * Model based
@@ -17,7 +38,7 @@
 
 ## Demo & docs
 
-[http://monterail.github.io/vuelidate/](http://monterail.github.io/vuelidate/)
+[https://vuelidate.js.org/](https://vuelidate.js.org/)
 
 ## Installation
 
@@ -104,7 +125,7 @@ $v: {
 }
 ```
 
-Checkout the docs for more examples: [https://monterail.github.io/vuelidate/](https://monterail.github.io/vuelidate/)
+Checkout the docs for more examples: [https://vuelidate.js.org/](https://vuelidate.js.org/)
 
 ## Contributing
 
@@ -130,8 +151,50 @@ npm test
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
+## Contributors
+
+### Current
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/shentao">
+        <img src="https://avatars3.githubusercontent.com/u/3737591?s=460&u=6ef86c71bbbb74efae3c6224390ce9a8cba82272&v=4" width="120px;" alt="Damian Dulisz"/>
+        <br />
+        <sub><b>Damian Dulisz</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/NataliaTepluhina">
+        <img src="https://avatars0.githubusercontent.com/u/18719025?s=460&u=2375ee8b609cb39d681cb318ed138b2f7ffe020e&v=4" width="120px;" alt="Natalia Tepluhina"/>
+        <br />
+        <sub><b>Natalia Tepluhina</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/dobromir-hristov">
+        <img src="https://avatars3.githubusercontent.com/u/9863944?s=460&u=55b074c1589d69d17bb78322dd6900d63b186a34&v=4" width="120px;" alt="Natalia Tepluhina"/>
+        <br />
+        <sub><b>Dobromir Hristov</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/marina-mosti">
+        <img src="https://avatars2.githubusercontent.com/u/14843771?s=460&u=1d11d62c22d38c01d73e6c92587bd567f4e51d27&v=4" width="120px;" alt="Marina Mosti"/>
+        <br />
+        <sub><b>Marina Mosti</b></sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
+### Emeriti
+
+Here we honor past contributors who have been a major part on this project.
+
+- [Monterail](https://github.com/monterail)
+- [Paweł Grabarz](https://github.com/Frizi)
+
 ## License
 
 [MIT](http://opensource.org/licenses/MIT)
-
-Copyright (c) 2016 Paweł Grabarz & Damian Dulisz

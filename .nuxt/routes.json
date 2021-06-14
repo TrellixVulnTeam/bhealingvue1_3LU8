@@ -1,0 +1,16 @@
+[
+  {
+    "name": "thankYou",
+    "path": "/thankYou",
+    "component": "/Users/jimsadler/Dev/bhealingvue1/pages/thankYou.vue",
+    "chunkName": "pages/thankYou",
+    "_name": "_3113a38c"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/jimsadler/Dev/bhealingvue1/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_8f421faa"
+  }
+]
