@@ -12,6 +12,8 @@ import '../node_modules/bootstrap-vue/dist/bootstrap-vue.css'
 
 import '../node_modules/@fortawesome/fontawesome-svg-core/styles.css'
 
+import '../node_modules/prismjs/themes/prism.css'
+
 import _6f6c098b from '../layouts/default.vue'
 import _7813e4b4 from '../layouts/thank.vue'
 

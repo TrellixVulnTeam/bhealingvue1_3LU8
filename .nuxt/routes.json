@@ -12,5 +12,12 @@
     "component": "/Users/jimsadler/Dev/bhealingvue1/pages/index.vue",
     "chunkName": "pages/index",
     "_name": "_8f421faa"
+  },
+  {
+    "name": "slug",
+    "path": "/:slug",
+    "component": "/Users/jimsadler/Dev/bhealingvue1/pages/_slug.vue",
+    "chunkName": "pages/_slug",
+    "_name": "_92af623a"
   }
 ]

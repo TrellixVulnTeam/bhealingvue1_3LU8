@@ -71,8 +71,12 @@ export default {
           }
         ]
       }
-    ]
+    ],
+    "@nuxt/content"
   ],
+  content: {
+    //Options
+  },
   /*
    ** Build configuration
    */
