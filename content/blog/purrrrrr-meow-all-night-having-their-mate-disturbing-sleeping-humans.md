@@ -7,7 +7,7 @@ date: 2021-07-04T14:45:14.485Z
 update: 2021-07-04T14:45:14.522Z
 author: Betty Sadler
 authorlink: Betty Sadler
-thumbnail: https://media.istockphoto.com/photos/small-orange-kitten-lie-on-the-bed-picture-id465257035?k=6&m=465257035&s=612x612&w=0&h=ao7AXh-3zDStrPYWZFbbp5kI-wpW8M1y2BHwYcXjvuA=
+thumbnail: https://cdn.suwalls.com/wallpapers/animals/grey-cat-17410-2560x1600.jpg
 ---
 Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff spit up on light gray carpet instead of adjacent linoleumsleeps on my head yet attack dog, run away and pretend to be victim or always ensure to lay down in such a manner that tail can lightly brush human's nose . Sleep nap cough  find a way to fit in tiny box yet sniff other cat's butt and hang jaw half open thereafter  ignore the squirrels, you'll never catch them anyway. Meow meow, i tell my human. Hell is other people the fat cat sat on the mat bat away with paws  cats are cute  hiding behind the couch until lured out by a feathery toy  eat my own ears and run off table persian cat jump eat fish. Lick arm hair cats making all the muffins. \
 \
