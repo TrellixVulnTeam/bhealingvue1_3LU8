@@ -1,5 +1,19 @@
 [
   {
+    "name": "blog",
+    "path": "/blog",
+    "component": "/Users/jimsadler/Dev/bhealingvue1/pages/blog.vue",
+    "chunkName": "pages/blog",
+    "_name": "_118d3759"
+  },
+  {
+    "name": "blogPosts",
+    "path": "/blogPosts",
+    "component": "/Users/jimsadler/Dev/bhealingvue1/pages/blogPosts.vue",
+    "chunkName": "pages/blogPosts",
+    "_name": "_3dbb0eac"
+  },
+  {
     "name": "thankYou",
     "path": "/thankYou",
     "component": "/Users/jimsadler/Dev/bhealingvue1/pages/thankYou.vue",

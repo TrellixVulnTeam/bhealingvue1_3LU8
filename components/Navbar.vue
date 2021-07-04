@@ -36,6 +36,7 @@
           <b-nav-item to="#process" router-tag="a">Process</b-nav-item>
           <b-nav-item router-tag="a" to="#bout_me">About</b-nav-item>
           <b-nav-item router-tag="a" to="#contact">Contact</b-nav-item>
+          <b-nav-item router-tag="a" to="blogList">Blog</b-nav-item>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
