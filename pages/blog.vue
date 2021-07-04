@@ -27,31 +27,32 @@
     <!-- #hero -->
     <!-- content -->
 
-    <div class="container">
-      <div class="row">
-        <ul class="blogPostItem" v-for="post of posts" :key="post.slug">
-          <li v-for="post of posts" :key="post.slug">
-            <b-card
-              img-src="https://picsum.photos/600/300/?image=25"
-              img-alt="Image"
-              img-top
-              tag="article"
-              style="max-width: 20rem;"
-              class="m-4"
-            >
-              <NuxtLink :to="post.slug"
-                ><h2>{{ post.title }}</h2></NuxtLink
+    <b-container>
+      <b-row v-for="post of posts" :key="post.slug">
+        <b-col>
+          <ul class="blogPostItem">
+            <li>
+              <b-card
+                :img-src="post.thumbnail"
+                img-alt="Image"
+                img-top
+                tag="article"
+                style="max-width: 20rem;"
+                class="m-4"
               >
-
-              <b-card-text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </b-card-text>
-            </b-card>
-          </li>
-        </ul>
-      </div>
-    </div>
+                <NuxtLink :to="post.slug"
+                  ><h2>{{ post.title }}</h2></NuxtLink
+                >
+                <b-card-text>
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </b-card-text>
+              </b-card>
+            </li>
+          </ul>
+        </b-col>
+      </b-row>
+    </b-container>
   </div>
 </template>
 
@@ -63,6 +64,15 @@ export default {
     return {
       posts
     };
+  },
+  computed: {
+    postThumbSrcSet() {
+      const baseName = this.selectedDog.toLowerCase();
+      return `${require(`@/assets/img/${this.baseName}_480.jpg`)} 480w, ${require(`@/assets/img/${this.baseName}_800.jpg`)} 800w`;
+    },
+    dogImage() {
+      /* ... */
+    }
   }
 };
 </script>
