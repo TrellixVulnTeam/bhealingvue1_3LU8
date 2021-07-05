@@ -28,26 +28,49 @@
     <!-- content -->
 
     <b-container>
-      <b-row v-for="post of posts" :key="post.slug">
-        <b-col>
-          <ul class="blogPostItem">
+      <b-row>
+        <!-- <b-card-group deck>
+          <b-card
+            :img-src="post.thumbnail"
+            img-alt="Image"
+            img-top
+            tag="article"
+            style="max-width: 20rem;"
+            class=""
+          >
+            <NuxtLink :to="post.slug"
+              ><h5 role="heading" aria-level="2">
+                {{ post.title }}
+              </h5></NuxtLink
+            >
+            <b-card-text>{{ post.summary }}</b-card-text>
+          </b-card>
+
+          <b-card title="Title" header-tag="header" footer-tag="footer">
+            <b-card-text>Header and footers using slots.</b-card-text>
+            <b-button href="#" variant="primary">Go somewhere</b-button>
+          </b-card>
+        </b-card-group> -->
+        <b-col v-for="post of posts" :key="post.slug">
+          <ul class="blogPostItem mt-5">
             <li>
-              <b-card
-                :img-src="post.thumbnail"
-                img-alt="Image"
-                img-top
-                tag="article"
-                style="max-width: 20rem;"
-                class="m-4"
-              >
-                <NuxtLink :to="post.slug"
-                  ><h2>{{ post.title }}</h2></NuxtLink
+              <b-card-group deck>
+                <b-card
+                  :img-src="post.thumbnail"
+                  img-alt="Image"
+                  img-top
+                  tag="article"
+                  style="max-width: 20rem;"
+                  class="h-100"
                 >
-                <b-card-text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </b-card-text>
-              </b-card>
+                  <NuxtLink :to="post.slug"
+                    ><h5 role="heading" aria-level="2">
+                      {{ post.title }}
+                    </h5></NuxtLink
+                  >
+                  <b-card-text class="h-100">{{ post.summary }}</b-card-text>
+                </b-card>
+              </b-card-group>
             </li>
           </ul>
         </b-col>
@@ -148,7 +171,8 @@ export default {
 .hero-theme-dark .under-subtitle strong {
   color: white;
 }
-.blogPostItem {
+#blog-page .blogPostItem {
   list-style: none;
+  padding-inline-start: 4px !important;
 }
 </style>
