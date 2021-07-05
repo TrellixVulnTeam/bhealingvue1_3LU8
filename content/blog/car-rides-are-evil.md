@@ -1,8 +1,6 @@
 ---
 title: Car rides are evil
-summary: Chase dog then run away cats are cute and jump around on couch, meow
-  constantly until given food, being gorgeous with belly side up and terrorize
-  the hundred-and-twenty-pound rottweiler and steal his bed, not sorry.
+summary: Chase dog then run away cats are cute and jump around on couch
 date: 2021-06-14T11:53:02.703Z
 update: 2021-06-14T11:53:02.715Z
 author: Betty Sadler
