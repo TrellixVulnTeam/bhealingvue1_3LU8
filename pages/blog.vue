@@ -51,28 +51,31 @@
             <b-button href="#" variant="primary">Go somewhere</b-button>
           </b-card>
         </b-card-group> -->
-        <b-col v-for="post of posts" :key="post.slug">
-          <ul class="blogPostItem mt-5">
-            <li>
-              <b-card-group deck>
-                <b-card
-                  :img-src="post.thumbnail"
-                  img-alt="Image"
-                  img-top
-                  tag="article"
-                  style="max-width: 20rem;"
-                  class="h-100"
+        <b-col>
+          <div class="blogPostItem mt-5 mb-5">
+            <b-card-group deck>
+              <b-card
+                v-for="post of posts"
+                :key="post.slug"
+                :img-src="post.thumbnail"
+                img-alt="Image"
+                img-top
+                tag="article"
+                style="max-width: 20rem;"
+                class=""
+              >
+                <NuxtLink :to="post.slug"
+                  ><h5 role="heading" aria-level="2">
+                    {{ post.title }}
+                  </h5></NuxtLink
                 >
-                  <NuxtLink :to="post.slug"
-                    ><h5 role="heading" aria-level="2">
-                      {{ post.title }}
-                    </h5></NuxtLink
-                  >
-                  <b-card-text class="h-100">{{ post.summary }}</b-card-text>
-                </b-card>
-              </b-card-group>
-            </li>
-          </ul>
+                <b-card-text class="h-100">{{ post.summary }}</b-card-text>
+                <template #footer>
+                  <small class="text-muted">{{ post.update }}</small>
+                </template>
+              </b-card>
+            </b-card-group>
+          </div>
         </b-col>
       </b-row>
     </b-container>
@@ -87,15 +90,6 @@ export default {
     return {
       posts
     };
-  },
-  computed: {
-    postThumbSrcSet() {
-      const baseName = this.selectedDog.toLowerCase();
-      return `${require(`@/assets/img/${this.baseName}_480.jpg`)} 480w, ${require(`@/assets/img/${this.baseName}_800.jpg`)} 800w`;
-    },
-    dogImage() {
-      /* ... */
-    }
   }
 };
 </script>
