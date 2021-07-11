@@ -23,6 +23,8 @@ const getFiles = dir => {
 
     filelist.push(obj);
   });
+  console.log(filelist);
+  // console.log(fileContents);
   return filelist;
 };
 /**

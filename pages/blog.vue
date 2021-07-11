@@ -5,6 +5,7 @@
       <img
         class="hero-bg-img"
         src="@/assets/img/backgrounds/pier-to-the-beautiful-ocean-sunset-45177-2560x1600.jpg"
+        alt=""
       />
       <div class="hero-body">
         <div class="container">
