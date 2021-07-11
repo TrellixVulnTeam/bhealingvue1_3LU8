@@ -1,7 +1,7 @@
 <template>
   <div id="blogPostPage">
     <section class="hero is-medium hero-theme-dark">
-      <img class="hero-bg-img" :src="post.thumbnail" />
+      <img class="hero-bg-img" :src="post.thumbnail" alt="" />
       <div class="hero-body">
         <h3 role="heading" aria-level="1" class="title animated fadeInUp">
           {{ post.title }}
@@ -43,7 +43,7 @@ export default {
     let post;
     try {
       post = await $content("blog", params.slug).fetch();
-      // OR const article = await $content(`articles/${params.slug}`).fetch()
+      // const article = await $content(`articles/${params.slug}`).fetch()
       console.log("this is the post:" + post.thumbnail);
     } catch (e) {
       error({ message: "Blog Post not found" });
