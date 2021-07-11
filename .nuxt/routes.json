@@ -3,30 +3,35 @@
     "name": "blog",
     "path": "/blog",
     "component": "/Users/jimsadler/Dev/bhealingvue1/pages/blog.vue",
-    "chunkName": "pages/blog"
+    "chunkName": "pages/blog",
+    "_name": "_118d3759"
   },
   {
     "name": "blogPosts",
     "path": "/blogPosts",
     "component": "/Users/jimsadler/Dev/bhealingvue1/pages/blogPosts.vue",
-    "chunkName": "pages/blogPosts"
+    "chunkName": "pages/blogPosts",
+    "_name": "_3dbb0eac"
   },
   {
     "name": "thankYou",
     "path": "/thankYou",
     "component": "/Users/jimsadler/Dev/bhealingvue1/pages/thankYou.vue",
-    "chunkName": "pages/thankYou"
+    "chunkName": "pages/thankYou",
+    "_name": "_3113a38c"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/Users/jimsadler/Dev/bhealingvue1/pages/index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_8f421faa"
   },
   {
     "name": "slug",
     "path": "/:slug",
     "component": "/Users/jimsadler/Dev/bhealingvue1/pages/_slug.vue",
-    "chunkName": "pages/_slug"
+    "chunkName": "pages/_slug",
+    "_name": "_92af623a"
   }
 ]
