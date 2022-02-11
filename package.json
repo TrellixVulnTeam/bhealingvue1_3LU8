@@ -21,7 +21,7 @@
     "bootstrap-vue": "^2.0.0",
     "front-matter-markdown": "^0.4.5",
     "frontmatter-markdown-loader": "^3.6.2",
-    "node-sass": "^6.0.1",
+    "node-sass": "^7.0.0",
     "nuxt": "^2.15.6",
     "nuxt-fontawesome": "^0.4.0",
     "sass-loader": "^12.1.0",
